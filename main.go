@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	"net/http"
-	"wfical/config"
-	"wfical/handlers"
+
+	"wfics/config"
+	"wfics/handlers"
 
 	log "github.com/sirupsen/logrus"
 )

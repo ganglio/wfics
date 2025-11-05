@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"wfical/repos"
+	"wfics/repos"
 )
 
 func IcsHandler(w http.ResponseWriter, r *http.Request) {

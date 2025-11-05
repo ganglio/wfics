@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 
-	"wfical/config"
+	"wfics/config"
 
 	log "github.com/sirupsen/logrus"
 )
