@@ -1,4 +1,4 @@
-module wfical
+module wfics
 
 go 1.25.3
 
