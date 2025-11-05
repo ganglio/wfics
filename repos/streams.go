@@ -28,11 +28,11 @@ func (s Streams) Ics() *ical.Calendar {
 
 	for _, stream := range s {
 		event := cal.AddEvent(fmt.Sprintf("%s@wfical", stream.Start.Format("20060102T150405Z")))
-		event.SetSummary(stream.Subject)
+		event.SetSummary(stream.Description)
 		event.SetStartAt(stream.Start)
 		event.SetEndAt(stream.End)
 		event.SetLocation(stream.Location)
-		event.SetDescription(stream.Description)
+		event.SetDescription(stream.Subject)
 	}
 
 	return cal
